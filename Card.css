@@ -1,0 +1,86 @@
+body {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Montserrat;
+    height: 210vh;
+}
+@font-face {
+    font-family: Montserrat;
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+}
+#card {
+    top: 0;
+    width: 560px;
+    height: 1338px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#img1{
+    width: 560px;
+}
+#título1 {
+    top: 348px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 17.07px;
+    font-weight: 700;
+}
+#texto1 {
+    width: 345px;
+    height: 87.77px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 17.07px;
+    font-weight: 400;
+    margin: -10px auto 0px auto;
+}
+#textifood {
+    font-size: 14px;
+    text-align: center;
+    line-height: 17.07px;
+    font-weight: 700;
+    color: #11C76F;
+    top: 453px;
+}
+#imgifood {
+    margin-top: 10px;
+}
+#creditos {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    width: 190px;
+    margin: 30px 0px;
+}
+#aviso {
+    line-height: 13.75px;
+    font-size: 11px;
+    text-align: center;
+    width: 509px;
+    margin-top: 44px;
+}
+#duvidas {
+    font-size: 14px;
+    margin-top: 54px;
+}
+#redes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 55px 7px 44px 7px;
+}
+.icons {
+    margin: 0px 7px 0px 7px;
+}
+#enviado {
+    font-size: 14px;
+    text-align: center;
+}
+#nquero {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 60px;
+}
